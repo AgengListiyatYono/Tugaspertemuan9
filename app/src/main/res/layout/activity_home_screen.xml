@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@color/blue"
+        android:background="@color/coklat"
         >
 
      <ImageView
@@ -21,8 +21,8 @@
         android:layout_height="60dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:src="@drawable/logoadam"
-        app:tint="@color/white"
+         android:src="@drawable/logoageng"
+
         android:layout_centerVertical="true"
         />
     <TextView
@@ -32,7 +32,7 @@
        android:layout_height="wrap_content"
        android:layout_below="@+id/imghome"
        android:textColor="@color/white"
-       android:text="Selamat Datang Di AdamApps"
+       android:text=" APLIKASIKU"
        android:textSize="24sp" />
     </LinearLayout>
 
@@ -49,8 +49,8 @@
             android:layout_height="70dp"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="10dp"
-            android:backgroundTint="@color/black"
-            android:drawableTop="@drawable/helo"
+            android:backgroundTint="@color/coklat"
+            android:drawableTop="@drawable/baseline_waving_hand_24"
             android:text="Hello Project" />
 
         <Button
@@ -59,34 +59,37 @@
             android:layout_height="70dp"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="10dp"
-            android:drawableTop="@drawable/count"
-            android:backgroundTint="@color/black"
+            android:backgroundTint="@color/coklat"
+            android:drawableTop="@drawable/baseline_filter_1_24"
             android:text="Count Project" />
+
         <Button
             android:id="@+id/to_twoactivity"
             android:layout_width="395dp"
             android:layout_height="70dp"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="10dp"
-            android:drawableTop="@drawable/twoactivity_24"
-            android:backgroundTint="@color/black"
+            android:backgroundTint="@color/coklat"
+            android:drawableTop="@drawable/baseline_event_note_24"
             android:text="TwoActivity Project" />
+
         <Button
             android:id="@+id/to_sianida"
             android:layout_width="395dp"
             android:layout_height="70dp"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/coklat"
             android:drawableTop="@drawable/ic_baseline_coffee_24"
-            android:backgroundTint="@color/black"
             android:text="Sianida Project" />
+
         <Button
             android:id="@+id/to_fibonacci"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="10dp"
-            android:backgroundTint="@color/black"
+            android:backgroundTint="@color/coklat"
             android:drawableTop="@drawable/ic_baseline_format_list_numbered_24"
             android:text="Fibonacci Project" />
 
@@ -94,7 +97,7 @@
             android:id="@+id/to_alarm"
             android:layout_width="395dp"
             android:layout_height="70dp"
-            android:backgroundTint="@color/black"
+            android:backgroundTint="@color/coklat"
             android:drawableTop="@drawable/ic_baseline_access_alarm_24"
             android:text="Alarm Project" />
 
